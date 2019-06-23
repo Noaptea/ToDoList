@@ -23,10 +23,6 @@ export class ListTodosComponent implements OnInit {
     new Todo(2, 'Become a ninja', false, new Date()),
     new Todo(3, 'Destroy Everything', false, new Date())
   ]
-  // todo = {
-  //   id: '1',
-  //   description: 'Learn to dance'
-  // }
   constructor() { }
 
   ngOnInit() {
